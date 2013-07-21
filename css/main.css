@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  margin: 0;
   margin: 0;
 }
 body {
@@ -10,6 +10,36 @@ h1 {
   color: #FFF;
   font-size: 8em;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
+h2 {
+	color: #E39D9D;
+	font-size: 2em;
+	text-align: center;
+}
+a {
+	text-decoration:none;
+}
+
+a.Ceramics{
+	color:#E39D9D;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a.Food{
+	color:#BEEBBC;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a.Places{
+	color:#9DA5E3;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a:hover{
+	border-bottom: solid 5px;
+	}
