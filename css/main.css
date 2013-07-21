@@ -13,6 +13,24 @@ h1 {
   margin-top: 150px;
   margin-bottom: 50px;
 }
+h1.Ceramics{
+	color: #E39D9D;
+	font-size: 4em;
+	margin-top: 15px;
+}
+
+h1.Food{
+	color: #BEEBBC;
+	font-size: 4em;
+	margin-top: 15px;
+}
+h1.Places{
+	color: #9DA5E3;
+	font-size: 4em;
+	margin-top: 15px;
+}
+
+
 h2 {
 	color: #E39D9D;
 	font-size: 2em;
