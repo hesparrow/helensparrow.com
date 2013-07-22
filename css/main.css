@@ -10,8 +10,8 @@ h1 {
   color: #FFF;
   font-size: 8em;
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 h1.Ceramics{
 	color: #E39D9D;
@@ -61,3 +61,12 @@ a.Places{
 a:hover{
 	border-bottom: solid 5px;
 	}
+	
+div.row{
+	text-align:center;
+	
+}
+img{
+	margin:10px;
+	box-shadow: 10px 10px 5px #E6E6E6;
+}
