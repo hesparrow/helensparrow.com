@@ -5,6 +5,8 @@
 body {
   font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
   background: #FFF;
+width: 1000px;
+margin:auto;
 }
 h1 {
   color: #FFF;
@@ -36,6 +38,10 @@ h2 {
 	font-size: 2em;
 	text-align: center;
 }
+
+p {
+	width: 1000px;
+}
 a {
 	text-decoration:none;
 }
@@ -56,6 +62,18 @@ a.Places{
 	color:#9DA5E3;
 	margin-right: 50px;
 	margin-left: 50px;
+}
+a.About{
+	color: green;
+	text-align: center;
+	padding: 20px;	
+}
+
+a.Contact{
+	color: blue;
+	background: red;
+	text-align: center;
+	padding: 20px;		
 }
 
 a:hover{
