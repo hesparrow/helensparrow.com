@@ -3,11 +3,12 @@
   margin: 0;
 }
 body {
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
-  background: #FFF;
-width: 1000px;
-margin:auto;
+ 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+ 	background: #FFF;
+	width: 1000px;
+	margin:auto;
 }
+
 h1 {
   color: #FFF;
   font-size: 8em;
@@ -39,9 +40,10 @@ h2 {
 	text-align: center;
 }
 
-p {
-	width: 1000px;
+p {margin-left: 400px;
+	
 }
+
 a {
 	text-decoration:none;
 }
@@ -52,33 +54,43 @@ a.Ceramics{
 	margin-left: 50px;
 }
 
+/*227, 157, 157*/
+/*208, 196, 172*/
+
 a.Food{
 	color:#BEEBBC;
 	margin-right: 50px;
 	margin-left: 50px;
 }
 
+/*190, 235, 188*/
+/*173, 203, 207*/
+
 a.Places{
 	color:#9DA5E3;
 	margin-right: 50px;
 	margin-left: 50px;
+
 }
+
+/*157 172 227*/
+/*192, 164, 192*/
+
 a.About{
-	color: green;
+	color: rgb(173, 203, 207);
 	text-align: center;
 	padding: 20px;	
 }
 
 a.Contact{
-	color: blue;
-	background: red;
+	color: rgb(192, 164, 192);
 	text-align: center;
 	padding: 20px;		
 }
 
 a:hover{
 	border-bottom: solid 5px;
-	}
+}
 	
 div.row{
 	text-align:center;
